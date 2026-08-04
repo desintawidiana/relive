@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hijau">#70E000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hijau2">#CCFF33</color>
+    <color name="hitam">#000000</color>
+    <color name="black">#000000</color>
+
+
+
+    <color name="gray_100">#F3F4F6</color>
+    <color name="lime_500">#84CC16</color>
+    <color name="green">#84CC16</color>
+    <color name="lime_600">#65A30D</color>
+    <color name="border_lime">#D9F99D</color>
+    <color name="lime_92">#84CC16</color>
+    <color name="blue_500">#2196F3</color>
+
+
+</resources>

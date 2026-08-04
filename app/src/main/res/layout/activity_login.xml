@@ -1,0 +1,68 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/topEdgeImage"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:contentDescription="Gambar Tepi Atas"
+        android:scaleType="fitXY"
+        android:src="@drawable/shape_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ReLife"
+        android:textSize="24sp"
+        android:textColor="@color/hijau"
+        app:layout_constraintTop_toBottomOf="@id/topEdgeImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/sloganName"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/sloganName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECYCLE FOR A BETTER FUTURE LIFE"
+        android:textSize="14sp"
+        android:textColor="@color/hitam"
+        app:layout_constraintTop_toBottomOf="@id/appName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/hijau"
+        android:text="Sign Up"
+        android:textColor="@color/hitam"
+        app:layout_constraintTop_toBottomOf="@id/sloganName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/hijau2"
+        android:text="Login"
+        android:textColor="@color/hitam"
+        app:layout_constraintTop_toBottomOf="@id/button1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
